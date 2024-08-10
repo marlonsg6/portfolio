@@ -115,11 +115,34 @@ body {
 	animation: gradient-animation 5s ease infinite;
 }
 
+/* tecnologias */
+.tecnologias{
+	.container-tecnologias #tecnologias ul{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap:2em;
+		flex-wrap: wrap;
+	}
+	
+	.container-tecnologias #tecnologias ul li{
+		text-align: center;
+	}
+
+	img{
+		padding: 1.5em;
+		border: 3px solid #fff;
+		border-radius: 50%;
+		box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.9);
+	}
+}
+
+
 .projetos {
 	padding: 70px 0 70px;
 }
 
-.projetos .titulo {
+.titulo {
 	text-align: center;
 	padding: 60px 0;
 	font-size: 45px;
